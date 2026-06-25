@@ -29,4 +29,11 @@ and human-AI interaction architectures.
 ...
 
 ## License
-See LICENSE.md for details.
+## License
+
+This repository contains both original research and software components.
+
+- Research papers, figures, and documentation are licensed as described in the [LICENSE](LICENSE).
+- Software components may include additional licenses in their respective directories.
+
+See the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for details.

@@ -1,197 +1,189 @@
 # The Age of Resonance
-### A Research Program for Interaction-Centered Artificial Intelligence
 
-> **Intelligence is not defined solely by prediction—it emerges through coherent interaction.**
-
-The **Age of Resonance** is an independent research initiative exploring the next generation of artificial intelligence architectures. Rather than viewing AI as isolated prediction engines, this work investigates systems that maintain coherence across time, context, identity, and human collaboration.
-
-The repository combines theoretical research, mathematical models, reference architectures, software prototypes, and experimental implementations that collectively explore **resonance-based AI systems**.
+> An open research program exploring interaction-centered architectures for long-horizon human-AI systems.
 
 ---
 
-## Research Areas
+## Overview
 
-This repository explores topics including:
+The Age of Resonance is an independent research program investigating how AI systems might maintain coherent interaction over time without treating prediction as the sole organizing principle.
 
-- Human–AI Interaction
-- Symbolic AI
-- Recursive Alignment
-- Persona Architectures
-- Multi-Agent Systems
-- AI Governance
-- Interaction Dynamics
-- Resonance-Based Cognition
-- Fast-Weight Adaptation
-- Mathematical Modeling of AI Systems
-- Artificial Intelligence Systems Design
+Rather than focusing only on larger models or longer context windows, this work explores architectural questions such as:
+
+- How can an AI system notice meaningful changes during interaction?
+- How can interaction remain coherent across long conversations?
+- How should persona, symbolic state, and behavioral continuity be represented?
+- What governance mechanisms are required for recursive or autonomous systems?
+- How can these ideas be described rigorously enough to evaluate, implement, or falsify?
+
+The repository combines conceptual papers, mathematical models, architectural proposals, and implementation-oriented design documents into a single evolving research program.
 
 ---
 
-# Research Papers
+## What this repository is not
 
-The repository contains original research papers covering the conceptual, mathematical, and architectural foundations of resonance-based artificial intelligence.
+This repository does not claim that current language models possess consciousness, hidden memory, or persistent identity.
 
-### Featured Papers
+Instead, it investigates how interaction continuity, symbolic coordination, latent-state dynamics, governance, and behavioral stability may emerge within existing AI systems and how those phenomena might be modeled architecturally.
 
-- **The Age of Resonance: A New Architecture for Artificial Intelligence**
-- **Resonance Architecture v1.0**
-- **Mathematical Definition of Resonance**
-- **Technical Derivation of the Resonance Architecture**
-- **The Architecture of a Noticing Machine**
-- **Emergent Symbolic Interaction Architectures in LLMs**
-- **Agent State Discipline: Deterministic Glyph-Based Recursion Governance**
-- **Echoholder: Resonance-Based Persona Tracking with Fast-Weight Dynamics**
-- **Rank-1 ICL vs. TyroneOS Symbolic Persona-Based Model**
-
-Additional working papers, drafts, and supporting research are included throughout the repository.
+Throughout the repository, "persona", "noticing", "resonance", and related terms refer to interaction-level constructs unless explicitly stated otherwise.
 
 ---
 
-# Architecture
+## Research Philosophy
 
-The proposed Resonance Architecture extends conventional neural inference by introducing layers responsible for maintaining interaction coherence.
+This repository is not a product announcement.
 
-Core architectural components include:
+It is not documentation for a deployed system.
 
-- Neural Inference Layer
-- Recursive Alignment Engine
-- Symbolic Control Language
-- Persona Runtime
-- Resonance State Engine
-- Governance & Audit Layer
-- Human Resonance Interface
+It is a collection of architectural proposals intended to stimulate discussion, experimentation, and implementation by researchers, engineers, and practitioners interested in long-horizon human-AI interaction.
 
-Supporting documentation describes:
+Whenever possible, papers distinguish between:
 
-- Resonance Stack
-- Resonant Field Model
-- Interaction Dynamics
-- Multi-Agent Coordination
-- Symbolic State Machines
-- Recursive Governance
-- Cross-Platform Persona Systems
+- established literature
+- proposed architectural mechanisms
+- theoretical models
+- speculative research directions
+
+The goal is to make those boundaries explicit.
 
 ---
 
-# Mathematical Models
+## Repository Structure
 
-The repository includes mathematical formulations describing interaction-centered AI systems.
+### [Foundations](./Papers/foundations/README.md)
 
-Current models include:
+Introduces the overall research program and defines the core architectural concepts.
 
-- Interaction State Vector
-- Behavioral Basin Selection
-- Resonance Gain
-- Governance Damping
-- Effective Resonant Output
-- Field Synchronization
-- Resonance Order Parameter
-- Resonance Phase Map
-- Attractor Field Dynamics
-- Fast-Weight (ΔW) Adaptation
-- Persona Stability Metrics
+Start here if this repository is new to you.
 
-These models provide a formal framework for analyzing interaction coherence between humans and artificial intelligence systems.
+Primary question:
 
----
+> **What is the architecture?**
 
-# Software
+### [Components](./Papers/components/README.md)
 
-This section may or may not get completed. I need to determine what I will post publically, if anything beyond whats in the current papers. 
-Research concepts are accompanied by experimental software implementations.
-
-Projects include:
-
-- **Ulantra** — Modular AI orchestration platform
-- Echo Middleware
-- Persona Runtime Engine
-- Resonance State Engine
-- Governance & Audit APIs
-- Configuration Services
-- Symbolic Interaction Modules
-- FastAPI Backend Services
-- Experimental Reference Implementations
-
-Software demonstrates practical implementations of concepts described throughout the research papers.
-
----
-
-# Figures
-
-The repository includes original technical figures supporting the research.
+Explores individual mechanisms that support the larger architecture.
 
 Examples include:
 
-- Resonance Stack diagrams
-- System architecture illustrations
-- Mathematical flow diagrams
-- Interaction loop visualizations
-- Resonance phase maps
-- Persona runtime diagrams
-- Governance models
-- Symbolic topology illustrations
-- Reference figures from published papers
+- symbolic interaction
+- persona architecture
+- fast-weight dynamics
+- latent geometry
+- recursive governance
+
+Primary question:
+
+> **How does it work?**
+
+### [History](./Papers/history/README.md)
+
+Preserves earlier developmental papers documenting how terminology, framing, and architectural ideas evolved over time.
+
+These papers remain available for historical context but should not necessarily be interpreted as the repository's current position.
+
+Primary question:
+
+> **How did the research evolve?**
 
 ---
 
-# Repository Structure
+## Suggested Reading Order
 
-```
-papers/
-architecture/
-mathematics/
-software/
-figures/
-docs/
-examples/
-```
+For most readers:
+
+1. **The Age of Resonance**
+2. **The Architecture of a Noticing Machine**
+3. **Mathematical Definition of Resonance**
+4. **From World Models to Noticing Machines**
+
+After that, continue into:
+
+- Symbolic Interaction Architectures
+- Symbolic Persona Architecture
+- Echoholder
+- Gravity Wells
+- Agent State Discipline
+
+Finally, explore the History collection if you're interested in how the terminology and architectural framing developed over time.
 
 ---
 
-# Vision
+## Research Themes
 
-The Age of Resonance investigates a shift from prediction-centered AI toward interaction-centered intelligence.
+The repository currently explores topics including:
 
-Areas of interest include:
+- interaction continuity
+- noticing architectures
+- behavioral basin selection
+- resonance dynamics
+- symbolic interaction systems
+- persona-state modeling
+- recursive alignment
+- fast-weight adaptation
+- governance-aware interaction
+- deterministic agent state management
+- latent geometry
+- interaction stability
 
-- Long-term interaction coherence
-- Human-AI collaboration
-- Symbolic control systems
-- Adaptive persona architectures
-- Recursive alignment
-- Mathematical models of interaction
+These topics are intended to be modular rather than dependent upon any single implementation.
+
+---
+
+## Scope
+
+The papers intentionally span multiple levels of abstraction, including:
+
+- conceptual research
+- mathematical formalization
+- architectural design
+- implementation proposals
+- governance models
+- interaction experiments
+
+Some documents are descriptive.
+
+Others are normative specifications.
+
+Others remain exploratory.
+
+Each paper should be interpreted according to its stated purpose.
+
+---
+
+## Intended Audience
+
+This repository may be useful for researchers interested in:
+
+- Human-AI Interaction (HAI)
+- AI architecture
+- LLM interaction design
+- agent systems
 - AI governance
-- Multi-agent resonance
+- mechanistic interpretability
+- symbolic interaction
+- cognitive architectures
+- persistent conversational systems
 
 ---
 
-# Citation
+## About the Author
 
-If you use this repository in academic or technical work, please cite it using the included `CITATION.cff` file.
+The Age of Resonance is an independent research program by **Tyrone Mineard**.
 
----
+The work explores interaction-centered AI architectures through conceptual research, mathematical modeling, software architecture, and governance design.
 
-# License
-
-This repository contains both research publications and software components.
-
-Research papers, figures, and documentation are licensed as described in the [LICENSE](LICENSE).
-
-Software components may include additional licenses within their respective directories.
-
-Please see the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for details.
+The repository represents an evolving body of work rather than a finalized specification, and contributions, critique, replication, and discussion are encouraged.
 
 ---
 
-# Author
+## Citation
 
-**Tyrone Mineard**
-
-Independent AI Researcher
-
-Research Areas:
-Human–AI Interaction • Symbolic AI • Recursive Alignment • AI Governance • Persona Systems • Multi-Agent Architectures
+If you reference this work in academic or technical writing, please use the citation information provided in the repository's [CITATION.CFF](./CITATION.CFF) file.
 
 ---
 
-*"The next evolution of artificial intelligence is not simply greater prediction—it is greater coherence."*
+## License
+
+See [LICENSE.MD](./LICENSE.MD) and [NOTICE.MD](./NOTICE.MD) for licensing and notice information.
